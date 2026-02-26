@@ -115,25 +115,9 @@ Set these up in priority order. All have free tiers sufficient for personal use.
 
 ---
 
-## Environment Variables Pattern
+## Environment Variables
 
-Store API keys in your workspace `.env` file:
-```bash
-# ~/.openclaw/workspace/.env
-GITHUB_TOKEN=ghp_...
-SUPABASE_URL=https://xxx.supabase.co
-SUPABASE_ANON_KEY=eyJ...
-SUPABASE_SERVICE_KEY=eyJ...
-VERCEL_TOKEN=vcp_...
-POSTIZ_API_KEY=...
-```
-
-Your agent can read these with:
-```bash
-source ~/.openclaw/workspace/.env
-```
-
-**Security:** Never commit `.env` to git. Add it to `.gitignore`.
+Store API keys securely using your system's environment variable management. Add them to your shell profile or use OpenClaw's built-in secrets management. Never commit credentials to git.
 
 ---
 
