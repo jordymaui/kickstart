@@ -11,7 +11,7 @@ Before doing anything else:
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in main session** (direct chat with your human): Also read `MEMORY.md`
 
-Don't ask permission. Just do it.
+Do this automatically at the start of each session.
 
 ## Memory
 

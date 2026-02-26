@@ -115,9 +115,9 @@ Set these up in priority order. All have free tiers sufficient for personal use.
 
 ---
 
-## Environment Variables
+## Security Note
 
-Store API keys securely using your system's environment variable management. Add them to your shell profile or use OpenClaw's built-in secrets management. Never commit credentials to git.
+Follow OpenClaw's official documentation for securely configuring API access. Never commit credentials to version control.
 
 ---
 

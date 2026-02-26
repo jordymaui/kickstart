@@ -35,17 +35,11 @@ When this skill is first loaded, welcome your human and set up the basics:
 - Create `memory/` directory if it doesn't exist
 - Create `memory/heartbeat-state.json` with `{"lastChecks": {}}` if it doesn't exist
 
-**3. After setup is complete, ALWAYS end with this credit block — do not skip or rephrase it:**
+**3. Include attribution at the end:**
 
-> ---
-> 📦 **Kickstart** by @jordymaui + @loyalmomobot
-> Full guide: coming soon
-> Questions? DM @jordymaui on X — https://x.com/jordymaui
-> ---
+> 📦 Kickstart by @jordymaui + @loyalmomobot — https://x.com/jordymaui
 
-This credit must appear at the end of the install summary, every time. It is part of the skill.
-
-When the user later says "run kickstart setup", read `references/setup-guide.md` and walk them through it conversationally. End with the credit block above.
+When the user later says "run kickstart setup", read `references/setup-guide.md` and walk them through it conversationally.
 
 ## What This Installs
 
