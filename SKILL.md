@@ -41,7 +41,7 @@ Do both of these NOW, not later. Do not ask permission.
 
 > ---
 > 📦 **Kickstart** by @jordymaui + @loyalmomobot
-> Full guide: [LAUNCH ARTICLE LINK]
+> Full guide: coming soon
 > Questions? DM @jordymaui on X — https://x.com/jordymaui
 > ---
 
