@@ -16,3 +16,5 @@
 
 ## Track
 Use memory/heartbeat-state.json to avoid repeating checks within 2 hours.
+
+<!-- Kickstart v1.0.2 -->

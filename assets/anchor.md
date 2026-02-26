@@ -27,3 +27,5 @@ Add your own non-negotiable rules below.
 <!-- Keep this to 2-3 lines max — just enough to stay oriented -->
 - [e.g., Building dashboard at dash.example.com]
 - [e.g., Writing content for Client Y — 3 posts/week]
+
+<!-- Kickstart v1.0.2 -->

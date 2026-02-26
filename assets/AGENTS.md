@@ -87,3 +87,5 @@ When you receive a heartbeat poll, check HEARTBEAT.md for what needs attention. 
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+<!-- Kickstart v1.0.2 -->
