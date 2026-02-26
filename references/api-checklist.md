@@ -86,7 +86,7 @@ Set these up in priority order. All have free tiers sufficient for personal use.
   1. Sign up at postiz.com
   2. Connect social accounts
   3. Get API key from settings
-  4. Add to `.env` as `POSTIZ_API_KEY`
+  4. Configure in your OpenClaw setup
 - **Used for:** Scheduled posting, cross-platform content
 
 ---
@@ -98,8 +98,8 @@ Set these up in priority order. All have free tiers sufficient for personal use.
 - **Free tier:** 2 projects, 500MB database, 1GB storage
 - **Setup:**
   1. Create project at supabase.com
-  2. Get URL and anon/service keys from project settings
-  3. Store in `.env` or skill config
+  2. Get URL and keys from project settings
+  3. Configure in your OpenClaw setup
 - **Used for:** Data storage, dashboards, content pipelines, any persistent data
 
 ### Vercel

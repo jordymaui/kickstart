@@ -170,19 +170,19 @@ Don't try to automate everything at once. Add one automation, get it stable, the
 
 ---
 
-## Step 9: Install Essential Companion Skills
+## Step 9: Install Companion Skills
 
-Run the bundled installer to grab the skills that make Kickstart significantly better:
+These optional skills work great alongside Kickstart:
 
-```bash
-bash scripts/install-essentials.sh
+```
+npx clawhub install qmd
+npx clawhub install github
 ```
 
-This installs:
-- **qmd** — Local search across all your memory files. Instead of loading entire files into context, your agent searches and pulls only what's relevant. This is the single biggest upgrade for memory management.
+- **qmd** — Local search across all your memory files. Instead of loading entire files into context, your agent searches and pulls only what's relevant. The single biggest upgrade for memory management.
 - **github** — GitHub CLI integration for managing repos, issues, PRs from your agent.
 
-Optional extras it'll suggest: google-calendar, weather.
+Also worth considering: google-calendar, weather.
 
 ---
 

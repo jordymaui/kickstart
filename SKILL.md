@@ -105,11 +105,11 @@ This walks through each file, explains what it does, and helps customise it for 
   - Stakes calibration (high/medium/low)
   - Self-evaluation checklist
 
-### Essential Companion Skills
-- `scripts/install-essentials.sh` — One-command installer for recommended skills
-  - **qmd** — Local search/indexing for memory files (the single biggest memory upgrade)
-  - **github** — GitHub CLI integration
-  - Plus optional: google-calendar, weather
+### Recommended Companion Skills
+After setup, consider installing these via `npx clawhub install`:
+- **qmd** — Local search/indexing for memory files (the single biggest memory upgrade)
+- **github** — GitHub CLI integration
+- Optional: google-calendar, weather
 
 ### Automation
 - `references/automation-patterns.md` — Common cron and heartbeat patterns
