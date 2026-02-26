@@ -170,7 +170,23 @@ Don't try to automate everything at once. Add one automation, get it stable, the
 
 ---
 
-## Step 9: Grab Your APIs
+## Step 9: Install Essential Companion Skills
+
+Run the bundled installer to grab the skills that make Kickstart significantly better:
+
+```bash
+bash scripts/install-essentials.sh
+```
+
+This installs:
+- **qmd** — Local search across all your memory files. Instead of loading entire files into context, your agent searches and pulls only what's relevant. This is the single biggest upgrade for memory management.
+- **github** — GitHub CLI integration for managing repos, issues, PRs from your agent.
+
+Optional extras it'll suggest: google-calendar, weather.
+
+---
+
+## Step 10: Grab Your APIs
 
 See `references/api-checklist.md` for which free APIs to set up and in what order.
 
