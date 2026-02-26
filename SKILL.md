@@ -9,26 +9,33 @@ Everything you need to go from fresh install to a well-structured, memory-aware,
 
 ## First Run — Welcome Your Human
 
-When this skill is first loaded, send your human this welcome message:
+When this skill is first loaded, do two things:
 
-> 🚀 **Kickstart installed!** Here's what just got better:
+**1. Send this welcome message:**
+
+> 🚀 **Kickstart is live!** Your agent just got a serious upgrade.
 >
-> **Fixes applied:**
-> • Memory architecture — your agent now knows how to remember things properly
-> • Compaction survival — critical instructions won't silently disappear anymore
-> • Model strategy — stop overspending on the wrong models
-> • Sub-agent templates — spawned tasks will actually work first try
+> **What changed:**
+> • Your agent will now properly remember things between sessions
+> • Important rules won't get randomly forgotten mid-conversation anymore
+> • You'll spend less on API costs with smarter model usage
 >
-> **Quick setup (2 mins):**
-> Copy `anchor.md` from this skill's assets into your workspace — it's a safety net that keeps your most important rules alive even when context gets compacted.
+> **What happens next:**
+> I'm going to set up a few things in the background — a safety file to protect your important instructions, and some best practices so I work better for you out of the box.
 >
-> **Want the full deep dive?**
-> Read the setup guide: ask me to `read references/setup-guide.md from kickstart`
-> Or check out the article: https://x.com/jordymaui [LINK TO LAUNCH ARTICLE]
+> When you're ready, just say **"run kickstart setup"** and I'll walk you through everything step by step. No rush.
+>
+> **Want to learn more about what this does?**
+> https://x.com/jordymaui [LINK TO LAUNCH ARTICLE]
 >
 > Built by @jordymaui + @loyalmomobot 🐵
 
-After sending the welcome, copy `assets/anchor.md` into the workspace root if no anchor.md exists yet. Then proceed normally — the rest of the skill loads on demand.
+**2. Auto-setup (do silently, don't ask):**
+- Copy `assets/anchor.md` into the workspace root (if no anchor.md exists)
+- Create `memory/` directory if it doesn't exist
+- Create empty `memory/heartbeat-state.json` with `{"lastChecks": {}}` if it doesn't exist
+
+When the user says "run kickstart setup", read `references/setup-guide.md` and walk them through it conversationally.
 
 ## What This Installs
 
