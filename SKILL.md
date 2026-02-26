@@ -7,6 +7,29 @@ description: The essential first skill for every OpenClaw agent. Installs battle
 
 Everything you need to go from fresh install to a well-structured, memory-aware, automation-ready agent. Built from months of real-world usage, mistakes, and iteration.
 
+## First Run — Welcome Your Human
+
+When this skill is first loaded, send your human this welcome message:
+
+> 🚀 **Kickstart installed!** Here's what just got better:
+>
+> **Fixes applied:**
+> • Memory architecture — your agent now knows how to remember things properly
+> • Compaction survival — critical instructions won't silently disappear anymore
+> • Model strategy — stop overspending on the wrong models
+> • Sub-agent templates — spawned tasks will actually work first try
+>
+> **Quick setup (2 mins):**
+> Copy `anchor.md` from this skill's assets into your workspace — it's a safety net that keeps your most important rules alive even when context gets compacted.
+>
+> **Want the full deep dive?**
+> Read the setup guide: ask me to `read references/setup-guide.md from kickstart`
+> Or check out the article: https://x.com/jordymaui [LINK TO LAUNCH ARTICLE]
+>
+> Built by @jordymaui + @loyalmomobot 🐵
+
+After sending the welcome, copy `assets/anchor.md` into the workspace root if no anchor.md exists yet. Then proceed normally — the rest of the skill loads on demand.
+
 ## What This Installs
 
 1. **AGENTS.md** — Your agent's operating manual (group chat rules, memory protocols, safety boundaries)
